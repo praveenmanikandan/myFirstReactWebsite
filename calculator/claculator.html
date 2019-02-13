@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<title>Claculator</title>
+<head>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="size">
+   <h1 >Calculator</h1>
+   <input id="number1" class="input1" type="text" >
+   <br/>
+   <br/>
+   <input id="number2" class="input2" type="text">
+   <br/>
+   <br/>
+   <input id="result" class="result" type="text" value="0">
+   <br/>
+   <br/>
+   <button onclick="add()">+</button>
+   <button onclick="sub()">-</button>
+   <button onclick="mul()">*</button>
+   <button onclick="div()">/</button>
+   <br/>
+   <br/>
+   <!--button class="active">
+       <a href="./claculator.html">
+        AC
+       </a></button-->
+       <button onclick="clear1()">AC</button>
+   </div>
+
+
+   <script>
+   function add(){
+       var number1=document.querySelector('#number1').value;
+       var number2=document.querySelector('#number2').value;
+       document.querySelector("#result").value=parseInt(number1)+parseInt(number2);
+   }
+   function sub(){
+       var number1=document.querySelector('#number1').value;
+       var number2=document.querySelector('#number2').value;
+       document.querySelector("#result").value=parseInt(number1)-parseInt(number2);
+   }
+   function mul(){
+       var number1=document.querySelector('#number1').value;
+       var number2=document.querySelector('#number2').value;
+       document.querySelector("#result").value=parseInt(number1)*parseInt(number2);
+   }
+   function div(){
+       var number1=document.querySelector('#number1').value;
+       var number2=document.querySelector('#number2').value;
+       document.querySelector("#result").value=parseInt(number1)/parseInt(number2);
+   }
+   function clear1()
+   {
+    document.querySelector("#number1").value=" ";
+    document.querySelector("#number2").value=" ";
+    document.querySelector("#result").value=0;
+   }
+   </script>
+</body>

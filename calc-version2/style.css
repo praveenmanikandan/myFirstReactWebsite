@@ -1,0 +1,72 @@
+.size
+{
+padding: 30px;
+background-color: black;
+}
+body
+{
+ text-align: center;
+}
+
+.input1
+{
+    border-radius: 5px;
+    border-style: double;
+    height: 20px;
+    text-align: right;
+  
+}
+.input2
+{
+    border-radius: 5px;
+    border-style: double;
+    height: 20px;
+    text-align: right;
+}
+.result
+{
+    border-radius: 5px;
+    border-style: double;
+    height: 20px;
+    text-align: right;
+}
+button
+{
+    height: 30px;
+    width: 30px;
+    padding: 20PX;
+    border-radius: 50%;
+    border: 1px solid;
+    
+}
+.buttonsize
+{
+    width: 80px; 
+    border-radius: 20px;
+    text-align: left;
+}
+
+button:hover
+{
+    background-color:rgb(231, 132, 99);
+}
+.active
+{
+    width:50px;
+    height:30px;
+}
+a
+{
+ text-decoration: none;
+}
+h1{
+    background-color:rgb(95, 94, 93);
+    border-radius: 30px;
+}
+.button-container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: chocolate;
+}
