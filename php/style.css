@@ -1,0 +1,12 @@
+ul{
+    list-style: none;
+    line-height:30px;
+}
+
+.inp{
+    border-radius: 6px;
+}
+
+li .sub{
+    border-radius: 3px;
+}
